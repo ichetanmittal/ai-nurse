@@ -65,4 +65,4 @@ def handle_message(data):
     socketio.emit('receive_message', {'message': bot_response, 'sender': 'bot'})
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, allow_unsafe_werkzeug=True, port=5001)
+    socketio.run(app, debug=True, allow_unsafe_werkzeug=True, port=5002)
